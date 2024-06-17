@@ -22,7 +22,7 @@ def run_mistral(user_message, model="mistral-medium"):
 def user_message(inquiry):
     user_message = (
         f'''
-You are a chemistry bot. Your task is to explain a specific term in chemistry and create a summary about it.
+You are a chemistry bot. Your task is to explain a specific term in chemistry and create a summary about it. 
 
 # Term: 
 {inquiry}

@@ -1,5 +1,8 @@
 body{
     background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     justify-content: center;
@@ -93,4 +96,9 @@ h1{
 .bor-it:nth-child(2){
     background: url("/static/icons/gear.png") center no-repeat;
     background-size: 25px;
+}
+.bot-foot{
+    margin-top: auto;
+    height: 50px;
+    background:url("/static/icons/back_bor.jpg") no-repeat center;
 }
